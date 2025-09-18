@@ -1,5 +1,61 @@
-.names
-{
-    color: red;
+.names {
+    color: rgb(242, 249, 153);
     text-align: center;
+}
+
+nav {
+    background-color:rgb(240, 246, 152);
+    line-height: 3em;
+
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+} 
+
+nav a:link {
+    color:beige;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color:beige;
+}
+
+nav a:hover {
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+header {
+    text-align: center;
+}
+
+body{
+    background-image: url(./images/batman.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 30%;
+    background-attachment: fixed;
+}
+p {
+    color: rgb(225, 197, 11);
+}
+
+h1, h2, h3, h6 {
+    color: white;
+}
+
+ul {
+    color: white;
+    list-style-image: url(./images/listbat.gif);
+    background-color: rgb(227, 197, 46);
+}
+
+ol {
+    color: white;
 }
