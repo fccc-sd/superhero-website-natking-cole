@@ -66,8 +66,13 @@ ul {
 
 ol {
     color: white;
+    background-color: rgb(227, 197, 46);
 }
 
 hr {
     border-color: rgb(149, 149, 149);
+}
+
+div {
+    text-align: center;
 }
