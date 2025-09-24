@@ -6,6 +6,7 @@
 div {
     border-style: groove;
     border-color: white;
+    
 }
 
 nav {
@@ -45,17 +46,21 @@ body{
     background-position: center ;
     background-repeat: no-repeat;
     background-color: black;
-    background-size: 30%;
+    background-size: 20%;
     background-attachment: fixed;
     border-style: solid;
     border-color: rgb(202, 159, 5);
 }
 p {
     color: rgb(225, 197, 11);
+    margin: 20px;
+    
 }
 
 h1, h2, h3, h6{
     color: white;
+    margin: 20px;
+    clear: both;
 }
 
 ul {
@@ -73,6 +78,14 @@ hr {
     border-color: rgb(149, 149, 149);
 }
 
-div {
-    text-align: center;
+img {
+text-align: center; 
 }
+/*.leftalign{
+
+}
+.rightalign{
+    float: right;
+    margin: 20px;
+}
+    */
