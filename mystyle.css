@@ -60,7 +60,7 @@ p {
 h1, h2, h3, h6{
     color: white;
     margin: 20px;
-    clear: both;
+    
 }
 
 ul {
@@ -78,14 +78,13 @@ hr {
     border-color: rgb(149, 149, 149);
 }
 
-img {
-text-align: center; 
+.rightalign {
+    float: right;
+    margin-left: 20px;
 }
-/*.leftalign{
+
+.leftalign {
+    float: left;
+    margin-right: 20px;
 
 }
-.rightalign{
-    float: right;
-    margin: 20px;
-}
-    */
