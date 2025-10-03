@@ -93,3 +93,12 @@ div {
    display: flex;
    justify-content: center;
 }
+ p a:link {
+    color:rgb(244, 255, 158);
+    text-decoration: none;
+ }
+
+ p a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+ }
