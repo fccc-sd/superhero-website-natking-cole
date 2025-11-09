@@ -1,104 +1,231 @@
-.names {
-    color: rgb(242, 249, 153);
-    text-align: center;
-    clear:both;
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
 }
 
-div {
-    border-style: groove;
-    border-color: white;
-    
+header
+{
+    background-color: rgb(0, 0, 0);
 }
 
-nav {
-    background-color:rgb(240, 246, 152);
-    line-height: 3em;
-    border-style: groove;
-    border-color: white;
+nav 
+{
+    background-color: rgb(55, 75, 60);
+    height: 40px;
+    width: 920px;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-style: double;
 }
 
-nav li {
+nav ul 
+{
+    display: inline;
+    padding: 130px;
+}
+nav li
+{
     display: inline;
     list-style-type: none;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 40px;
+    padding-left: 40px;
     text-align: center;
-} 
-
-nav a:link {
-    color:beige;
-    text-decoration: none;
-}
-
-nav a:visited {
-    color:beige;
-}
-
-nav a:hover {
-    color:rgb(0, 0, 0);
-    text-decoration: underline;
-}
-header {
-    text-align: center;
-}
-
-body{
-    background-image: url(./images/batman.png);
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-color: black;
-    background-size: 20%;
-    background-attachment: fixed;
-    border-style: solid;
-    border-color: rgb(202, 159, 5);
-}
-p {
-    color: rgb(225, 197, 11);
-    margin: 20px;
+    height: 20px;
+    background-color: rgb(111, 153, 117);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
     
+   
+}
+body 
+{
+    background-color: rgb(19, 22, 36);
 }
 
-h1, h2, h3, h6{
-    color: white;
-    margin: 20px;
-    
+#container 
+{
+    background-color: rgb(0, 0, 0);
+    width: 960px;
+    margin: 0 auto;
 }
 
-ul {
-    color: white;
-    list-style-image: url(./images/listbat.gif);
-    background-color: rgb(227, 197, 46);
-}
 
-ol {
-    color: white;
-    background-color: rgb(227, 197, 46);
-}
-
-hr {
-    border-color: rgb(149, 149, 149);
-}
-
-.rightalign {
-    float: right;
-    margin-left: 20px;
-}
-
-.leftalign {
+aside 
+{
+    width: 200px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-bottom: 10px;
     float: left;
-    margin-right: 20px;
-
 }
-div {
+
+section
+{
+    background-color: rgb(255, 255, 255);
+    width: 710px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    float: right;
+    color: white;
+}
+
+footer
+{
+    background-color:  rgb(227, 197, 46);
+    clear: both;
+    padding: 10px;
+}
+#imgcontainer
+{
    display: flex;
    justify-content: center;
 }
- p a:link {
-    color:rgb(244, 255, 158);
-    text-decoration: none;
- }
 
- p a:visited {
+p 
+{
+    padding: 10px;
+    background-color: rgb(71, 100, 75);
+    border-style:double;
+    border-color: rgb(255, 255, 255);
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2, h3
+{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+/*START OF BLUE */
+
+
+#blue *
+{
+    margin: 0;
+    padding: 0;
     color: rgb(255, 255, 255);
-    text-decoration: none;
- }
+}
+
+#blue header
+{
+    background-color: rgb(0, 0, 0);
+}
+
+#blue nav 
+{
+    background-color: rgb(38, 61, 68);
+    height: 40px;
+    width: 920px;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-style: double;
+}
+
+#blue nav ul 
+{
+    display: inline;
+    padding: 130px;
+}
+#blue nav li
+{
+    display: inline;
+    list-style-type: none;
+    padding-left: 40px;
+    padding-left: 40px;
+    text-align: center;
+    height: 20px;
+    background-color: rgb(88, 133, 160);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    
+   
+}
+#blue body 
+{
+    background-color: rgb(19, 22, 36);
+}
+
+#blue #container 
+{
+    background-color: rgb(0, 0, 0);
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+#blue aside 
+{
+    width: 200px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#blue section
+{
+    background-color: rgb(255, 255, 255);
+    width: 710px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    
+    color: white;
+}
+
+#blue footer
+{
+    background-color:  rgb(227, 197, 46);
+    clear: both;
+    padding: 10px;
+}
+#blue #imgcontainer
+{
+   display: flex;
+   justify-content: center;
+}
+
+#blue p 
+{
+    padding: 10px;
+    background-color: rgb(111, 153, 177);
+    border-style:double;
+    border-color: rgb(255, 255, 255);
+}
+
+#blue h1
+{
+    text-align: center;
+}
+
+#blue h2, h3
+{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+
+
+
+
