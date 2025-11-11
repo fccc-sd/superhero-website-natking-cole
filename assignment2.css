@@ -6,6 +6,7 @@
 
 body 
 {
+    
     background-color: rgb(49, 49, 49);
 }
 
@@ -20,26 +21,26 @@ header
 {
     background-color: rgb(0, 0, 0);
     height: 100px;
-    width: 94.7916%;
-    padding: 2.6041%;
-    margin-bottom: 1.0416%;
+    width: 94.75%;
+    padding: 2.60%;
+    margin-bottom: 1.04%;
     color: white;
     
 }
 
 nav 
 {
-    padding: 1.0416%;
+    padding: 1.04%;
     background-color: rgb(227, 197, 46);
-    width: 97.9166%;
-    margin-bottom: 1.0416%;
+    width: 97.91%;
+    margin-bottom: 1.04%;
 }
 
 nav li
 {
     display: inline;
     list-style-type: none;
-    padding-right: 5.2083%;
+    padding-right: 5.208%;
     
 }
 
@@ -56,22 +57,22 @@ nav a:visited
 
 aside 
 {
-    width: 20.833%;
-    height: 400px;
-    padding: 1.0416%;
+    width: 20.83%;
+    height: 41.66%;
+    padding: 1.04%;
     background-color: rgb(246, 243, 152);
-    margin-right: 1.0416%;
-    margin-bottom: 1.0416%;
+    margin-right: 1.04%;
+    margin-bottom: 1.04%;
     float: left;
 }
 
 section
 {
     background-color: rgb(0, 0, 0);
-    width: 73.958%;
-    height: 400px;
-    margin-bottom: 1.041%;
-    padding: 1.041%;
+    width: 73.95%;
+    height: 41.66%;
+    margin-bottom: 10px;
+    padding: 1.04%;
     float: right;
     color: white;
 }
@@ -80,45 +81,33 @@ footer
 {
     background-color:  rgb(227, 197, 46);
     clear: both;
-    padding: 1.041%;
+    padding: 1.04%;
 }
 
 p 
 {
-    padding: 1.041%;
+    padding: 1.04%;
     
 }
 
 section p 
 {
-    padding: 1.041%;
+    padding: 1.04%;
     border-style: dotted;
 }
 
 #list 
 {
     color: black;
-    height: 100px;
+    height: 10.41%;
     background-color: white;
-    width: 14.583%;
+    width: 14.58%;
     list-style-image: url(./images/listbat.gif);
-    padding-left: 2.6041%;
+    padding-left: 2.604%;
 }
 
 #solid 
 {
     border-style: solid;
     border-color: rgb(211, 180, 0);
-}
-aside img 
-{
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: .5em;
-}
-#solid img 
-{
-    width: 100%;
-    max-width: 50px;
-    margin-bottom: .5em;
 }
