@@ -111,3 +111,40 @@ section p
     border-style: solid;
     border-color: rgb(211, 180, 0);
 }
+
+img 
+{
+    width: 75%;
+    height: 75%;
+    max-width: 180;
+    max-height: 230;
+}
+
+#icons img
+{   width: 10%;
+    height: 10%;
+    max-width: 30;
+    max-height: 50;
+}
+
+@media (max-width: 600px)
+{
+    aside 
+    {
+        float: none;
+        width: 100%;
+        margin: 0 0 10 0;
+    }
+
+    section 
+    {
+       float: none;
+       width: 100%;
+       margin: 0 0 10 0; 
+    }
+
+    #list
+    {
+        list-style-image: none;
+    }
+}
