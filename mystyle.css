@@ -1,0 +1,104 @@
+.names {
+    color: rgb(242, 249, 153);
+    text-align: center;
+    clear:both;
+}
+
+div {
+    border-style: groove;
+    border-color: white;
+    
+}
+
+nav {
+    background-color:rgb(240, 246, 152);
+    line-height: 3em;
+    border-style: groove;
+    border-color: white;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+} 
+
+nav a:link {
+    color:beige;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color:beige;
+}
+
+nav a:hover {
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+header {
+    text-align: center;
+}
+
+body{
+    background-image: url(./images/batman.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 20%;
+    background-attachment: fixed;
+    border-style: solid;
+    border-color: rgb(202, 159, 5);
+}
+p {
+    color: rgb(225, 197, 11);
+    margin: 20px;
+    
+}
+
+h1, h2, h3, h6{
+    color: white;
+    margin: 20px;
+    
+}
+
+ul {
+    color: white;
+    list-style-image: url(./images/listbat.gif);
+    background-color: rgb(227, 197, 46);
+}
+
+ol {
+    color: white;
+    background-color: rgb(227, 197, 46);
+}
+
+hr {
+    border-color: rgb(149, 149, 149);
+}
+
+.rightalign {
+    float: right;
+    margin-left: 20px;
+}
+
+.leftalign {
+    float: left;
+    margin-right: 20px;
+
+}
+div {
+   display: flex;
+   justify-content: center;
+}
+ p a:link {
+    color:rgb(244, 255, 158);
+    text-decoration: none;
+ }
+
+ p a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+ }
