@@ -14,6 +14,11 @@ body{
     border-color: rgb(202, 159, 5);
 }
 
+#container{
+    display: flex;
+    justify-content: center;
+}
+
 header{
     margin: 5px;
     text-align: center;
@@ -102,7 +107,6 @@ td{
     background-color: rgba(117, 110, 7, 0.418);
 }
 
-
 th{
     background-color: rgb(211, 212, 106);
 }
@@ -113,4 +117,8 @@ caption{
 
 br{
     color: white;
+}
+
+footer{
+   color: white; 
 }
