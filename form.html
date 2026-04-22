@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "description" content = "Page with a form to order pizzA">
+        <meta name = "keywords" content = "pizza, form">
+        <title> CCP Courses</title>
+        <link rel = "stylesheet" href = "ccp.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                <img src="./images/whitebat.gif"  alt="bat gif" height="50" width="70" >
+                Form Page
+                <img src="./images/whitebat.gif"  alt="bat gif" height="50" width="70" >
+            </h1>
+
+            <nav>
+                <ul>
+                    <li> <a href = "index.html" title = "Home Page"> Home </a></li> 
+                    <li> <a href = "background.html" title = "Background Page"> Background</a></li>
+                    <li> <a href = "abilities.html" title = "Abilities Page"> Abilities</a> </li>
+                    <li> <a href = "media.html" title = "Media Page"> Movies </a></li>
+                    <li> <a href = "media2.html" title = "Media Page 2"> Comics & Games</a></li>
+                    <li> <a href = "characters.html" title = "Characters"> Characters</a></li>
+                    <li> <a href = "tables.html" title = "Tables"> CCP </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <form id = "pizza_form" action ="PLACEHOLDER"  method="post">
+            <h2> Pizza Order Form</h2>
+                <hr>
+            <p>Name: <input type = "text" name = "name" id = "id" placeholder ="Jane Doe"></p>
+            <p>Phone Number: <input type = "text" name = "number" id = "number" placeholder = "(xxx)-xxx-xxxx"></p>
+            <p>Address: <input type = "text" name = "address" id = "address" placeholder="1234 Streetname Ave"></p>
+            <p>Pizza Size:
+                    <br>
+                <input type = "Radio" name = "size" id = "small">
+                <label for = "small"> 8 in</label>
+                    <br>
+                <input type = "Radio" name = "size" id = "med">
+                <label for = "med"> 10 in</label>
+                    <br>
+                <input type = "Radio" name = "size" id = "large">
+                <label for = "large"> 12 in</label>
+            </p>
+            <p>Pizza Toppings:
+                    <br>
+                <input type = "checkbox" name = "toppings" id = "Pepperoni">
+                <label for = "Pepperoni"> Pepperoni</label>
+                    <br>
+                <input type = "checkbox" name = "toppings" id = "Veggies">
+                <label for = "Veggies"> Veggies </label>
+                    <br>
+                <input type = "checkbox" name = "toppings" id = "Pineapple">
+                <label for = "Pineapple"> Pineapple </label>
+                    <br>
+                <input type = "checkbox" name = "toppings" id = "Sausage">
+                <label for = "Sausage"> Sausage </label>
+                    <br>
+                <input type = "checkbox" name = "toppings" id = "Anchovies">
+                <label for = "Anchovies"> Anchovies </label>
+            </p>
+
+            <h3> Notes to the chef </h3>
+            <p>
+            <textarea name = "notes" id = "notes" cols = "30" rows = "10">Here, write down any further instructions!</textarea>
+                <br>
+            <input type = "submit" value = "Submit Order">
+            <input type = "reset" value = "Reset Form">
+            </p>
+
+        </form>
+    </body>
+</html>
