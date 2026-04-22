@@ -122,3 +122,27 @@ br{
 footer{
    color: white; 
 }
+
+/* Form CSS */
+
+form{
+    background-color: rgba(228, 203, 91, 0.5);
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 20%;
+}
+label{
+    border-bottom-style:solid;
+    border-bottom-width: 0.1cap;
+    border-color: rgba(37, 35, 35, 0.568);
+}
+
+form p {
+    background-color: rgba(241, 208, 60, 0.61);
+    box-shadow: 5px 5px 5px rgb(21, 22, 4);
+    color: rgb(0, 0, 0);
+}
+form h2{
+    text-align: center;
+}
